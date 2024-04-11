@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/homepage/"}
+{"dg-publish":true,"permalink":"/homepage/","tags":["gardenEntry"]}
 ---
 
 1. Grundlagen der Künstlichen Intelligenz
