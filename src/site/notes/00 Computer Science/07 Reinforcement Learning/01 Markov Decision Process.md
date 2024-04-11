@@ -41,7 +41,8 @@ This image describes the structure of Agent-Environment Loop which can be seen a
 		- it's used to handle the trade-off between immediate rewards and future rewards. 
 		- **Preference for Immediate Rewards**: immediate rewards are considered more valuable than future rewards, so we use discounted rewards to weaken the impact future on the present.
 		- **Infinite Horizon Problems**: some MDPs have infinite steps while return will be also infinite without discounted rate.
-	- We can express $G_t$ in terms of future returns: $$\begin{array}{c}G_{t}&&=&&R_{t+1}+\gamma R_{t+2}+\gamma^{2}R_{t+3}+\gamma^{3}R_{t+4}\cdot\cdot\cdot\\ &&=&&R_{t+1}+\gamma(R_{t+2}+\gamma R_{t+3}+\gamma^{2}R_{t+4}\cdot\cdot\cdot)\\&&=&&R_{t+1}+\gamma G_{t+1}\end{array}$$
+	- We can express $G_t$ in terms of future returns: 
+	- $$\begin{array}{c}G_{t}&&=&&R_{t+1}+\gamma R_{t+2}+\gamma^{2}R_{t+3}+\gamma^{3}R_{t+4}\cdot\cdot\cdot\\ &&=&&R_{t+1}+\gamma(R_{t+2}+\gamma R_{t+3}+\gamma^{2}R_{t+4}\cdot\cdot\cdot)\\&&=&&R_{t+1}+\gamma G_{t+1}\end{array}$$
 	- Although it is a sum of an infinite number of terms, it's still finite if the reward is nonzero and constant while $\gamma < 1$ $$G_{t}=\sum_{k=0}^{\infty}\gamma^{k}={\frac{1}{1-\gamma}}$$
 
 ## Episodic and non-episodic returns
