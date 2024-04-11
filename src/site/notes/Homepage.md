@@ -9,7 +9,9 @@
 5. Computer Vision
 6. Discrete Optimisation
 
-- nini$$dada$$
+- nini
+- $$dada$$
 - nini
 	- ninini
-		- nini $$ffa$$
+		- nini 
+		- $$ffa$$
